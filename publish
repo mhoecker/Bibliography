@@ -1,3 +1,3 @@
 #!/bin/sh
-bibtex2html --use-keys --nobibsource --no-abstract --no-keywords -a  -t "Bibliography" -o /home/mhoecker/Documents/bibliography sumary.bib
-bibtex2html --use-keys --nobibsource --no-abstract -note annote -single -d -r -t "Annotated Bibliography" -o /home/mhoecker/Documents/annotated sumary.bib
+bibtex2html --use-keys --nobibsource --no-abstract --no-keywords -a  -t "Bibliography" -o bibliography sumary.bib 
+bibtex2html --use-keys --nobibsource --no-abstract -note annote -single -d -r -t "Annotated Bibliography" -o annotated sumary.bib 
